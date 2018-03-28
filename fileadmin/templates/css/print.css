@@ -1,0 +1,16 @@
+#navigation-container, #topcontainer, #subnavigation ul, #message_nav, #disz_nav, #lang_nav {
+	display: none;
+}
+
+body, #header-container, div.container_16, #footer-container {
+	background: none;
+}
+
+#header-container {
+	height: 80px
+}
+
+#header img{
+	margin-top: 10px;
+	display: block;
+}

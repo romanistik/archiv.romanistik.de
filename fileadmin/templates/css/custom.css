@@ -1,0 +1,524 @@
+/* @override http://www.romanistik.de/fileadmin/templates/css/custom.css */
+
+/* @override http://www.romanistik.de/fileadmin/templates/css/custom.css */
+
+/* @override http://www.romanistik.de/fileadmin/templates/css/custom.css */
+
+/* @group tags */
+
+body
+{
+  background: #e5e0dd;
+  color: #333;
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-image: url(../img/bullet.gif);
+}
+
+a {
+  color: #800000;
+}
+a:hover {
+  color: #000;
+}
+
+
+.container_16
+{
+  background: #fff url(../img/bg.png);
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  clear: both;
+}
+
+h1 {
+  font-size: 1.9em;
+  line-height: 1em;
+  color: #7f6d65;
+}
+h2, h3 {
+  font-size: 1.7em;
+  margin-bottom: 10px;
+}
+h3 {
+  color: #888;
+}
+
+p {
+  margin: 0;
+}
+
+#content p {
+  font-size: 1.1em
+}
+
+#content li {
+  font-size: 1.1em
+}
+
+/* @end */
+
+/* @group classes */
+
+.contenttable td {
+  border: 1px solid #e5e5e5;
+  padding: 5px
+}
+
+.contenttable tr:hover {
+  background-color: #f5f8fa;
+}
+
+.container_16 {
+    overflow: hidden;
+}
+
+.news-list-category {
+  float: left;
+}
+
+.news-list-container h3 {
+  font-size: 1.2em;
+  clear: both;
+}
+
+.news-list-container h3 a {
+  text-decoration: none;
+}
+
+.news-list-container h3 a:hover {
+  text-decoration: underline;
+}
+.news-list-date {
+  float: right;
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+
+.news-list-news_properties {
+  padding: 3px;
+  margin-bottom: 5px;
+  clear: both;
+  background-color: #f6f6f6;
+  font-weight: bold;
+}
+
+.news-romde-single-label {
+  color: #6c6c6c;
+}
+.news-list-news_author {
+  float: left;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+
+.news-list-morelink {
+  float: right;
+}
+
+.tx-ttnews-browsebox-strong {
+  font-weight: bold;
+}
+
+.tx-ttnews-browsebox a {
+  margin-right: 6px;
+}
+
+.news-single-category {
+  float: left;
+}
+
+.news-single-timedata {
+  float: right;
+}
+
+.news-single-author {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.news-single-item h2 {
+  color: #7f6d65;
+  font-size: 1.5em;
+}
+
+.romde_external_link {
+  font-weight: bold;
+  padding: 8px;
+  background-color: #f6f6f6;
+}
+
+
+
+.news-single-item ul.news-romde{
+  list-style-image: none;
+  background-color: #f6f6f6;
+  list-style-type: none;
+  padding: 4px;
+}
+
+.news-single-item ul.news-romde li{
+  margin: 4px;
+  font-weight: bold;
+}
+
+.news-single-author {
+  
+  margin-bottom: 5px;
+  margin-top: 25px
+}
+
+.news-single-backlink {
+  margin-bottom: 20px
+}
+
+.infobox, .csc-frame {
+  border-left: 5px solid #f2ece9;
+  padding: 5px;
+  clear: both;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.infobox.stronger {
+  border-left-color: #800000;
+}
+.infobox.strongest, .csc-frame-frame2 {
+  border-left-color: #800000;
+  background-color: #f2ece9;
+}
+.infobox h3, .csc-frame h3, .csc-frame h2, .csc-frame h1 {
+  font-size: 13px;
+  display: block;
+  color: #333;
+}
+.infobox p, .csc-frame p{
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.news-search-form {
+  float: right;
+  display: block;
+}
+
+.news-amenu-container h2 {
+  display: none
+}
+
+li.news-amenu-item-year {
+  color: #838383;
+  padding-top: 10px;
+  border-bottom: 1px solid #aec0cb;
+  font: bold 1.4em/2.2em Georgia, "Times New Roman", Times, serif;
+}
+
+.tx-ameosformidablerssparser-pi1 ul {
+  list-style-type: none;
+  list-style-image: none;
+  margin: 0
+}
+
+.tx-ameosformidablerssparser-pi1 ul li {
+  margin: 0;
+  border-style: none;
+}
+
+.tx-ameosformidablerssparser-pi1 h3 {
+  font-size: 1.1em;
+  margin: 0
+}
+
+.tx-ameosformidablerssparser-pi1 p {
+  display: none;
+}
+
+/* @end */
+
+/* @group header */
+
+#header-container {
+  height: 150px;
+  background-color: #fff;
+  width: 960px;
+}
+#header-container img {
+  margin-top: 45px;
+  display: none;
+}
+#header {
+  padding-left: 8px;
+  height: 150px;
+  background: url(../img/logo_white.png) no-repeat 8px 45px;
+}
+#topcontainer {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 430px;
+}
+
+#topnav {
+  float: right;
+  margin-bottom: 36px;
+}
+
+#topnav ul {
+  list-style-type: none;
+  list-style-image: none;
+}
+
+#topnav li {
+  float: left;
+  margin: 0;
+}
+
+#topnav li + li {
+  border-left: 1px solid #626262;
+}
+
+#topnav a {
+  display: block;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#navigation-container {
+  width: 960px;
+  overflow: hidden;
+  height: 28px;
+  margin-bottom: 10px;
+}
+
+#navigation {
+  background-color: #887972;
+  height: 28px;
+  line-height: 28px;
+  margin-right: 0;
+  margin-bottom: 10px;
+  color: #fff;
+  width: 960px;
+  border-top: 1px solid #887972;
+}
+#navigation ul {
+  list-style-type: none;
+  height:  28px;
+  line-height: 28px;
+  list-style-image: none;
+  width: 960px
+}
+#navigation li {
+  float: left;
+  margin: 0;
+}
+#navigation a {
+  font-weight: bold;
+  display: block;
+  line-height: 28px;
+  background-color: #887972;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+}
+#navigation a.current {
+  background-color: #fff;
+  color: #800000;
+}
+#navigation a.current:hover {
+  color: #000;
+  background-color: #fff;
+}
+#navigation a:hover {
+  background-color: #745f56;
+}
+
+/* @end */
+
+/* @group subnavs */
+
+#subnavigation {
+  margin-bottom: 20px;
+}
+#subnavigation ul {
+  list-style-type: none;
+  list-style-image: none;
+  margin-bottom: 20px;
+  display: inline-table;
+}
+
+#subnavigation ul > li {
+  border-top: 1px solid #887972;
+}
+#subnavigation ul li + li {
+  border-top: none;
+}
+#subnavigation li {
+  float: left;
+  width: 220px;
+  margin: 0;
+}
+#subnavigation ul a {
+  display: block;
+  line-height: 25px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid #887972;
+  color: #6b5c55;
+  font-weight: bold;
+  border-left: 5px solid #887972;
+}
+#subnavigation a:hover, #subnavigation a.sub1:hover {
+  background-color: #f8f7f6;
+  color: #263133;
+  
+}
+#subnavigation a.current {
+  color: #800000;
+  border-left: 5px solid #beb3ae;
+}
+#subnavigation a.current:hover {
+  background-color: #f8f7f6;
+  color: #000;
+}
+#subnavigation a.sub1 {
+  padding-left: 20px;
+  border-left: 5px solid #beb3ae;
+}
+
+#subnavigation h6 {
+  margin-bottom: 5px;
+  color: #7f6d65;
+}
+
+/* @end */
+
+/* @group content */
+
+div.tx-indexedsearch-res .tx-indexedsearch-descr.descr strong.tx-indexedsearch-redMarkup {
+  color: #800000;
+}
+
+input.tx-indexedsearch-searchbox-sword {
+  width: 500px;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+div.tx-indexedsearch-rules {
+  display: none;
+}
+
+div.tx-indexedsearch-browsebox li{
+  float: left;
+  margin: 0;
+  font-size: 9px;
+}
+
+div.tx-indexedsearch-browsebox {
+  margin-bottom: 50px;
+}
+
+div.tx-indexedsearch-browsebox ul.browsebox li a {
+  font-size: 10px;
+}
+
+
+div.tx-indexedsearch-res {
+  clear: both;
+}
+
+div.csc-sitemap ul {
+  font-size: 11px;
+}
+
+#breadcrumb {
+  margin-bottom: 20px;
+  line-height: 26px;
+  border-bottom: 1px solid #dad4cc;
+}
+
+div.tx-indexedsearch-searchbox table {
+  width: 90%;
+}
+
+div.tx-newloginbox-pi1 td {
+  padding: 2px;
+}
+
+div.tx-newloginbox-pi1 #user {
+  padding: 2px;
+  width: 350px
+}
+
+div.tx-srfeuserregister-pi1 .tx-srfeuserregister-pi1-text {
+  padding: 2px;
+  margin: 2px
+}
+
+div.tx-srfeuserregister-pi1 label {
+  padding: 2px;
+  margin: 2px;
+  display: block;
+  font-weight: bold;
+}
+
+input.tx-srfeuserregister-pi1-submit {
+  margin-top: 10px;
+}
+
+div.tx-newsfeedit-pi1 h2 {
+  font: bold 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div.tx-newsfeedit-pi1-form-field select, div.tx-newsfeedit-pi1-form-field input, div.tx-newsfeedit-pi1-form-field textarea {
+  width: 340px;
+  padding: 2px;
+}
+
+input.tx-newsfeedit-pi1-form-submit {
+  float: right;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+div.tx-newsfeedit-pi1-form-error-field, div.tx-newsfeedit-pi1-form-required-message {
+  margin-top: 8px;
+  margin-left: 120px;
+  border: 1px solid #c60000;
+  background-color: #ffe2e2;
+  padding: 3px;
+  color: #c60000;
+  margin-bottom: 20px;
+}
+
+#right_content div.news-list-container div.news-list-item h3 {
+  font-size: 0.96em;
+}
+
+
+
+/* @end */
+
+/* @group footer */
+
+#footer-container {
+  padding-top: 10px;
+  height: 40px;
+  color: #333;
+  background-color: #e5e0dd;
+  width: 960px;
+}
+
+#footer {
+  margin-left: 10px;
+}
+
+/* @end */
